@@ -1,0 +1,11 @@
+Los objetos Byte son secuencias de Bytes, mientras que las Cadenas son secuencias de caracteres.
+
+Los objetos Byte están en forma legible por la máquina internamente, mientras que las Cadenas sólo están en forma legible por el ser humano.
+
+Como los objetos Byte son legibles por la máquina, pueden almacenarse directamente en el disco. En cambio, las cadenas de caracteres necesitan ser codificadas para poder ser almacenadas en el disco.
+
+- Codificación
+
+PNG, JPEG, MP3, WAV, ASCII, UTF-8, etc. son diferentes formas de codificación. Una codificación es un formato para representar audio, imágenes, texto, etc. en bytes. La conversión de cadenas en objetos de bytes se denomina codificación. Esto es necesario para que el texto pueda ser almacenado en el disco mediante el mapeo usando técnicas de codificación ASCII o UTF-8.
+
+Esta tarea se realiza mediante encode(). Toma como argumento la técnica de codificación. La técnica por defecto es "UTF-8".

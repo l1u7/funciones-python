@@ -9,8 +9,6 @@ basico[0] = 82
 basico = basico.decode()
 
 print(basico)
-
-
-
+ 
 
 print(var1.decode())
